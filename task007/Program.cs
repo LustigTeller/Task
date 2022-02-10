@@ -11,5 +11,5 @@ else
 {
     n = number % 10;
     Console.WriteLine($"Число:{number}");
-    Console.WriteLine($"Третья чифра числа:{n}");
+    Console.WriteLine($"Третья цифра числа:{n}");
 }
