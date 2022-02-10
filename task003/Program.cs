@@ -11,7 +11,7 @@
 // else Console.WriteLine($"Число {num} нечетное");
 
 
-Через рандом
+// Через рандом
 
 int numb = new Random().Next(1, 99);
 Console.WriteLine($"Случайное целое число {numb}");
