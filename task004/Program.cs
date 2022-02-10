@@ -16,7 +16,7 @@
 
 // Через рандом
 
-int numN=new Random().Next(1,99);
+int numN=new Random().Next(1, 99);
 Console.WriteLine(numN);
 int pos = 1;
 Console.WriteLine("");
