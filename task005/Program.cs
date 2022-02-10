@@ -2,8 +2,8 @@
 
 //рандом
 int number = new Random().Next(100, 999);
-int firtNumber;
-int secondNumber;
+int firtNumber = 0;
+int secondNumber = 0;
 Console.WriteLine($"Случайное число: {number}");
 firtNumber = number / 10;
 secondNumber = firtNumber % 10;
