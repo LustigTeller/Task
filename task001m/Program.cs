@@ -1,4 +1,4 @@
-﻿// C запозданием,к сожалению, но все же
+﻿// C запозданием, к сожалению, но все же
 // Даны два числа. Показать большее и меньшее число
 
 // Через ввод с консоли
@@ -9,12 +9,12 @@
 // Console.WriteLine("Введите целое число B ");
 // string numberStrB = Console.ReadLine();
 // int numberB = int.Parse(numberStrB);
-// if (numberA>numberB) Console.WriteLine($"Большее число: {numberA}, Меньшее число: {numberB}");
+// if (numberA > numberB) Console.WriteLine($"Большее число: {numberA}, Меньшее число: {numberB}");
 // else Console.WriteLine($"Большее число: {numberB}, Меньшее число: {numberA}");
 
 // Через рандом
 
-// int randomizer= new Random().Next(1,100); рандомайзер выдает одинаковые числа после ввода его в "int firstNum =.. и int secondNum =.." 
+// int randomizer= new Random().Next(1, 100); рандомайзер выдает одинаковые числа после ввода его в "int firstNum =.. и int secondNum =.." 
 int firstNum = new Random().Next(1, 100);
 Console.WriteLine($"{firstNum}");
 int secondNum = new Random().Next(1, 100);
