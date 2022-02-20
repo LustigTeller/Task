@@ -21,7 +21,7 @@ int GetIntFromConsole(string message)
     {
         Console.WriteLine(message);
         string numberStr = Console.ReadLine();
-        if (int.TryParse(numberStr, out number)) IsError = number < 0;
+        if (int.TryParse(numberStr, out number)) IsError = number <= 0;
     }
     return number;
 }
